@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
 /**
  * RichTextBlock element
@@ -27,7 +27,7 @@ class RichTextBlock extends BaseElement implements AdaptiveCardElement
      * @var string
      */
     private $horizontalAlignment;
-    
+
     public function __construct($inlines = null)
     {
         $this->setType("RichTextBlock");

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
 /**
  * Text block element

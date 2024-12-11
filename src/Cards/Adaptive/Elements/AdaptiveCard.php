@@ -1,8 +1,8 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
-use Sebbmyr\Teams\Cards\Adaptive\Actions\AdaptiveCardAction;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Actions\AdaptiveCardAction;
 
 /**
  * AdaptiveCard to be used as inline element for Actions
@@ -36,7 +36,7 @@ class AdaptiveCard implements AdaptiveCardElement
      * @var array
      */
     private $actions;
-    
+
     public function __construct()
     {
         $this->setType("AdaptiveCard");

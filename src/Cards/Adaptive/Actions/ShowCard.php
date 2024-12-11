@@ -1,9 +1,9 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Actions;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Actions;
 
-use Sebbmyr\Teams\Cards\Adaptive\AdaptiveCard;
-use Sebbmyr\Teams\Cards\Adaptive\Elements\AdaptiveCardElement;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Elements\AdaptiveCard;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Elements\AdaptiveCardElement;
 
 /**
  * ShowCard action
@@ -12,7 +12,7 @@ class ShowCard extends BaseAction implements AdaptiveCardAction
 {
 
     private $card;
-    
+
     public function __construct()
     {
         $this->setType("Action.ShowCard");
