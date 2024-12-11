@@ -1,8 +1,8 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
-use Sebbmyr\Teams\Cards\Adaptive\Actions\AdaptiveCardAction;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Actions\AdaptiveCardAction;
 
 /**
  * TextRun  element

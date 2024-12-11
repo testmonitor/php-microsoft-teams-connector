@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Actions;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Actions;
 
 interface AdaptiveCardAction
 {

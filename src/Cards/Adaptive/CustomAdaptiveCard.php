@@ -1,11 +1,11 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive;
 
-use Sebbmyr\Teams\AbstractCard as Card;
-use Sebbmyr\Teams\Cards\Adaptive\Actions\AdaptiveCardAction;
-use Sebbmyr\Teams\Cards\Adaptive\Contracts\FullWidth;
-use Sebbmyr\Teams\Cards\Adaptive\Elements\AdaptiveCardElement;
+use TestMonitor\TeamsConnector\AbstractCard as Card;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Actions\AdaptiveCardAction;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Contracts\FullWidth;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Elements\AdaptiveCardElement;
 
 /**
  * Custom adaptive card

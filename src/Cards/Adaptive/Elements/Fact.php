@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
 /**
  * Fact
@@ -26,7 +26,7 @@ class Fact
      * @var string
      */
     private $value;
-    
+
     public function __construct($title, $value)
     {
         $this->title = $title;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Actions;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Actions;
 
 /**
  * OpenUrl action
@@ -17,7 +17,7 @@ class OpenUrl extends BaseAction implements AdaptiveCardAction
      * @var string
      */
     private $url;
-    
+
     public function __construct($url = null)
     {
         $this->setType("Action.OpenUrl");

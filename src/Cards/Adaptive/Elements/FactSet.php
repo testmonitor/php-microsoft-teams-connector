@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
 /**
  * FactSet card element
@@ -16,7 +16,7 @@ class FactSet extends BaseElement implements AdaptiveCardElement
      * @var array
      */
     private $facts;
-    
+
     public function __construct($facts = null)
     {
         $this->setType("FactSet");

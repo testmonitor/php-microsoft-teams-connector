@@ -1,11 +1,11 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards;
+namespace TestMonitor\TeamsConnector\Cards;
 
-use Sebbmyr\Teams\TeamsConnectorInterface;
+use TestMonitor\TeamsConnector\TeamsConnectorInterface;
 
 /**
- * Sebbmyr\Teams\Cards\CustomCard
+ * TestMonitor\TeamsConnector\Cards\CustomCard
  */
 class CustomCard implements TeamsConnectorInterface
 {
@@ -90,7 +90,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Sets Card Title
-     * 
+     *
      * @param string $title
      * @return CustomCard
      */
@@ -103,7 +103,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Sets Card Text
-     * 
+     *
      * @param string $text
      * @return CustomCard
      */
@@ -116,7 +116,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Sets Card Summary
-     * 
+     *
      * @param string $summary
      * @return CustomCard
      */
@@ -129,7 +129,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Sets Card Color
-     * 
+     *
      * @param string $color
      * @return CustomCard
      */
@@ -142,7 +142,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Adds activity section to card
-     * 
+     *
      * @param string $text
      * @param string|null $title
      * @param string|null $image
@@ -164,7 +164,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Adds text section to card
-     * 
+     *
      * @param string $title
      * @param array|null $array
      * @return CustomCard
@@ -187,7 +187,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Adds facts section to card
-     * 
+     *
      * @param string $title
      * @param array $array
      * @return CustomCard
@@ -208,7 +208,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Adds single image to card
-     * 
+     *
      * @param string $title
      * @param string $image
      * @return CustomCard
@@ -222,7 +222,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Adds images to card
-     * 
+     *
      * @param string $title
      * @param array $images
      * @return CustomCard
@@ -242,7 +242,7 @@ class CustomCard implements TeamsConnectorInterface
 
     /**
      * Adds action button to card
-     * 
+     *
      * @param string $text
      * @param string $url
      * @return CustomCard

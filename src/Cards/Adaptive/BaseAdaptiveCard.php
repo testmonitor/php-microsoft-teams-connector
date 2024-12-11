@@ -1,9 +1,9 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive;
 
-use Sebbmyr\Teams\AbstractCard as Card;
-use Sebbmyr\Teams\Cards\Adaptive\Contracts\FullWidth;
+use TestMonitor\TeamsConnector\AbstractCard as Card;
+use TestMonitor\TeamsConnector\Cards\Adaptive\Contracts\FullWidth;
 
 /**
  * Base adaptive card
@@ -11,7 +11,7 @@ use Sebbmyr\Teams\Cards\Adaptive\Contracts\FullWidth;
 class BaseAdaptiveCard extends Card
 {
     use FullWidth;
-    
+
     public function getMessage()
     {
         $card = [
@@ -45,7 +45,7 @@ class BaseAdaptiveCard extends Card
             if (!in_array($key, $acceptedKeys)) {
                 continue;
             }
-            
+
             $card["content"][$key] = $value;
         }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards;
+namespace TestMonitor\TeamsConnector\Cards;
 
-use Sebbmyr\Teams\AbstractCard as Card;
+use TestMonitor\TeamsConnector\AbstractCard as Card;
 
 /**
  * Hero card for microsoft teams

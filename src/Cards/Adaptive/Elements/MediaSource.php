@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Elements;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Elements;
 
 /**
  * MediaSource element
@@ -30,7 +30,7 @@ class MediaSource implements AdaptiveCardElement
      */
     private $url;
 
-    
+
     public function __construct($mimeType = null, $url = null)
     {
         $this->mimeType = $mimeType;

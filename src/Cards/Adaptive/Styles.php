@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive;
 
 /**
  * Adaptive card styles

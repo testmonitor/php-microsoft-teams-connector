@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams;
+namespace TestMonitor\TeamsConnector;
 
 /**
  * Teams connector

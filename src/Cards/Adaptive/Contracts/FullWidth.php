@@ -1,6 +1,6 @@
 <?php
 
-namespace Sebbmyr\Teams\Cards\Adaptive\Contracts;
+namespace TestMonitor\TeamsConnector\Cards\Adaptive\Contracts;
 
 /**
  * Contract for displaying adaptive card in full width
